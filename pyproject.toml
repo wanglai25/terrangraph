@@ -1,0 +1,86 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "terrangraph"
+dynamic = ["version"]
+description = "A graph-based framework for geotechnical site representation and subsurface intelligence"
+readme = { file = "README.md", content-type = "text/markdown" }
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Wang Lai", email = "wanglai@imust.edu.cn" },
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+
+keywords = [
+    "geotechnical",
+    "subsurface",
+    "graph-learning",
+    "graph-neural-networks",
+    "site-characterization",
+    "representation-learning",
+]
+
+requires-python = ">=3.8"
+
+dependencies = [
+    "numpy>=1.20",
+    "pandas>=1.0",
+    "scipy>=1.5",
+    "scikit-learn>=0.24",
+    "tqdm>=4.40",
+]
+
+[project.optional-dependencies]
+
+ml = [
+    "torch>=1.9",
+    "torch-geometric>=2.0",
+]
+
+viz = [
+    "matplotlib>=3.0",
+    "pyvista>=0.30",
+    "pillow>=8.0",
+]
+
+# full install
+all = [
+    "torch>=1.9",
+    "torch-geometric>=2.0",
+    "matplotlib>=3.0",
+    "pyvista>=0.30",
+    "pillow>=8.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/wanglai25/terrangraph"
+Source = "https://github.com/wanglai25/terrangraph"
+Issues = "https://github.com/wanglai25/terrangraph/issues"
+
+[project.scripts]
+terrangraph = "terrangraph.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = { find = { where = ["src"], include = ["terrangraph*"] } }
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = { attr = "terrangraph.__version__" }
