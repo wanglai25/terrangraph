@@ -13,7 +13,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [0.1.0] - 2026-03-26
+## [0.2.0] - 2026-04-01
+
+### Changed
+
+- Improved README layout with refined banner, badges, and visual hierarchy
+- Updated project metadata and packaging configuration (`pyproject.toml`)
+
+### Improved
+
+- Improved project branding and presentation (banner design and layout)
+
+---
+
+## [0.1.0] - 2026-04-01
 
 ### Added
 

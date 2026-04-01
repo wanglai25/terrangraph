@@ -196,7 +196,6 @@ If you use TerranGraph in your research, please cite:
   author = {Wang, Lai},
   title = {TerranGraph: A Graph-Based Framework for Geotechnical Site Representation},
   year = {2026},
-  version = {0.1.0},
   url = {https://github.com/wanglai25/terrangraph}
 }
 ```
