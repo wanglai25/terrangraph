@@ -45,6 +45,8 @@ dependencies = [
     "scipy>=1.5",
     "scikit-learn>=0.24",
     "tqdm>=4.40",
+    "openpyxl>=2.5.6",
+    "xlrd>=1.1.0",
 ]
 
 [project.optional-dependencies]
