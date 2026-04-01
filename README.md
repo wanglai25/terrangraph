@@ -1,12 +1,20 @@
 # TerranGraph: A Graph-Based Framework for Geotechnical Site Representation
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wanglai25/terrangraph/main/assets/banner.png" alt="TerranGraph banner" width="100%">
+  <img src="https://raw.githubusercontent.com/wanglai25/terrangraph/main/assets/banner.png" width="75%">
 </p>
 
-[![PyPI version](https://img.shields.io/pypi/v/terrangraph.svg)](https://pypi.org/project/terrangraph/)
-[![Python version](https://img.shields.io/pypi/pyversions/terrangraph.svg)](https://pypi.org/project/terrangraph/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<p align="center">
+  <b>TerranGraph — A unified graph learning framework for subsurface intelligence.</b>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://img.shields.io/pypi/v/terrangraph.svg?style=flat-square">
+  <img src="https://img.shields.io/pypi/pyversions/terrangraph.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/license-MIT-yellow?style=flat-square">
+</p>
 
 TerranGraph is a Python framework for geotechnical site representation, learning, and visualization. It integrates multi-source data processing, spatial graph construction, graph neural networks, and 3D visualization into a single workflow for subsurface modeling and prediction.
 
