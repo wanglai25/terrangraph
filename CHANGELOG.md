@@ -13,6 +13,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.3.0] - 2026-04-01
+
+### Added
+
+- Added Excel data support dependencies (`openpyxl`, `xlrd`) for improved compatibility with `.xlsx` and `.xls` formats
+
+### Improved
+
+- Enhanced data loading robustness for geotechnical datasets
+- Improved compatibility of `DataHandler` with Excel-based workflows
+- Reduced failure cases in data preprocessing and pipeline initialization
+
+### Fixed
+
+- Fixed errors caused by missing Excel dependencies during data loading
+- Prevented cascading failures when data loading fails (e.g., MBR, grid generation, model initialization)
+
+---
+
 ## [0.2.0] - 2026-04-01
 
 ### Changed
