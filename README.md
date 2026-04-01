@@ -1,7 +1,7 @@
 # TerranGraph: A Graph-Based Framework for Geotechnical Site Representation
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wanglai25/terrangraph/main/assets/banner.png" alt="TerranGraph banner" width="100%">
+  <img src="https://raw.githubusercontent.com/wanglai25/terrangraph/main/assets/banner-revised.png" alt="TerranGraph banner" width="100%">
 </p>
 
 [![PyPI version](https://img.shields.io/pypi/v/terrangraph.svg)](https://pypi.org/project/terrangraph/)
