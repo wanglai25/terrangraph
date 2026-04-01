@@ -13,6 +13,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.4.0] - 2026-04-01
+
+### Changed
+
+- Removed automatic installation of machine learning dependencies (`torch`, `torch-geometric`) from package requirements
+- Simplified dependency structure to avoid conflicts between CPU and GPU environments
+- Users are now required to install PyTorch and PyTorch Geometric manually based on their system configuration
+
+### Improved
+
+- Improved installation stability across different platforms and hardware setups
+- Eliminated unintended installation of CPU-only PyTorch in GPU-enabled environments
+- Enhanced compatibility with custom deep learning environments (e.g., CUDA-specific setups)
+
+### Added
+
+- Added explicit guidance in documentation for installing PyTorch (CPU/GPU) and PyTorch Geometric
+- Improved error messaging when required ML dependencies are missing
+
+---
+
 ## [0.3.0] - 2026-04-01
 
 ### Added

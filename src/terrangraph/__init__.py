@@ -37,7 +37,7 @@ Example:
     >>> visualizer.show_model(mesh)
 """
 
-__version__ = "0.3.0"
+__version__ = "0.4.0"
 __author__ = "Wang Lai"
 __email__ = "wanglai@imust.edu.cn"
 __license__ = "MIT"

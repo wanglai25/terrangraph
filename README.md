@@ -36,28 +36,8 @@ Designed for subsurface modeling and site characterization, TerranGraph bridges 
 
 ## Installation
 
-Install the lightweight core package:
-
 ```bash
 pip install terrangraph
-```
-
-Install with graph learning support:
-
-```bash
-pip install terrangraph[ml]
-```
-
-Install with visualization support:
-
-```bash
-pip install terrangraph[viz]
-```
-
-Install full features:
-
-```bash
-pip install terrangraph[all]
 ```
 
 ## Quick Start
